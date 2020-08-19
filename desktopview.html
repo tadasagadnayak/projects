@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        table,td
+        {
+            border:1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            background-color: lightblue;
+        } 
+        .logo{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 4px;
+            padding-right: 50px;
+        }
+        .menucontent1{
+            border: 1px solid black;
+            border-radius: 2px;
+            display: inline-block;
+            height: 70%;
+            width: 35%;
+            padding:20px;
+        }
+        .menucontent2{
+            border: 1px solid black;
+            border-radius: 2px;
+            display: inline-block;
+            height: 50%;
+            width: 20%;
+            padding:20px;
+        }
+        .flexcontent{
+           display: flex;
+
+        }
+        .flexcontent > div{
+            display: flex;
+        }
+        .footer{
+            height: 5px;
+        }
+        </style>
+</head>
+<body>
+        <table style="width: 40%;">
+            <tr style="height:10px">
+                <td colspan="2"><span class="logo">Logo</span></td>
+            </tr>
+                 <td style="width: 30%;">Menu</td>
+                 <td style="width: 50%;">
+                    <p class="menucontent1">Banner 1</p>
+                    <p class="menucontent1">Banner 2</p>
+                    <p class="menucontent2">Block 1</p>
+                    <p class="menucontent2">Block 2</p>
+                    <p class="menucontent2">Block 3</p>
+                    <div class="flexcontent">
+                       
+                    </div>
+                </td>
+            </tr>
+            <tr class="footer">
+                <td colspan="2">Footer</td>
+            </tr>
+            </table>
+        </table>
+</body>
+</html>
