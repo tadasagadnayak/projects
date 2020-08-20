@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+}
+.logo1 {
+    background-color: skyblue;
+    height: 70px;
+    display: block;
+    width: 86%;
+}
+
+.logo {
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.footer {
+    display: block;
+    background-color: skyblue;
+    text-align: center;
+    height: 50px;
+    width: 86%;
+}
+
+.middle-content {
+    display: block;
+    width: 100%;
+}
+
+.menu {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.content {
+    display: inline-block;
+    width: 1100px;
+    height: 500px;
+    background-color: rgb(214, 236, 16);
+}
+
+.banner {
+    display: block;
+    height: 180px;
+    margin: 5px;
+}
+
+.block {
+    height: 150px;
+    margin: 5px;
+    display: block;
+}
+
+.bnr1 {
+    display: inline-block;
+    background-color: aqua;
+    width: 520px;
+    height: 245px;
+}
+
+.bnr2 {
+    display: inline-block;
+    background-color: rgb(102, 255, 0);
+    width: 520px;
+    height: 245px;
+}
+
+.blk1 {
+    display: inline-block;
+    width: 345px;
+    height: 245px;
+    background-color: darkgoldenrod;
+    margin-top: 63px;
+}
+
+.blk2 {
+    display: inline-block;
+    width: 345px;
+    height: 245px;
+    background-color: rgb(12, 170, 72);
+}
+
+.blk3 {
+    display: inline-block;
+    width: 345px;
+    height: 245px;
+    background-color: darkgoldenrod;
+}

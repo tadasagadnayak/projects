@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.logo1 {
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+}
+
+.logo {
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: skyblue;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.middle-content {
+    flex: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    flex: 20%;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.bnr1 {
+    background-color: aqua;
+    width: 500px;
+    height: 245px;
+    vertical-align: top;
+}
+
+.bnr2 {
+    background-color: rgb(102, 255, 0);
+    width: 500px;
+    height: 245px;
+}
+
+.blk1 {
+    width: 345px;
+    height: 240px;
+    background-color: darkgoldenrod;
+}
+
+.blk2 {
+    width: 345px;
+    height: 240px;
+    background-color: rgb(12, 170, 72);
+}
+
+.blk3 {
+    width: 345px;
+    height: 240px;
+    background-color: darkgoldenrod;
+}
