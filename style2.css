@@ -1,0 +1,191 @@
+middle-content{
+  width: 100%;
+margin-top: 65%;
+height: 80vh;
+}
+.flex-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+
+
+}
+.flex-container2{
+display: flex;
+flex-direction: column;
+
+}
+
+.flex-container2> div {
+background-color: grey;
+
+height: 200px;
+margin: 10px;
+  text-align: center;
+line-height: 75px;
+font-size: 30px;
+
+}
+
+.flex-container1{
+display: flex;
+flex-direction: row;
+
+}
+
+.flex-container > div {
+background-color: grey;
+
+height: 200px;
+margin: 10px;
+  text-align: center;
+line-height: 75px;
+font-size: 30px;
+
+}
+.flex-container1 > div {
+background-color: grey;
+
+height: 200px;
+margin: 10px;
+  text-align: center;
+line-height: 75px;
+font-size: 30px;
+
+}
+
+.menu{
+background-color: yellowgreen;
+
+width: 200px;
+height: 61vh;
+text-align: center;
+margin-right: 10%;
+
+}
+.logo1{
+  background-color: skyblue;
+ height: 70px;
+padding-top: 1%;
+ width: 100%;
+
+}
+.logo{
+border:1px solid blue;
+border-radius: 5px;
+width:50px;
+padding: 5px;
+margin-top:- 10px;
+margin-left: 50px ;
+
+}
+.logo2{
+padding-top: 1%;
+ height: 70px;
+display: none;
+ width: 100%;
+
+}
+@media only screen and  (max-width: 768px){
+.block{
+  visibility: hidden;
+}
+footer{
+display: none;
+}
+.middle-content{
+display: none;
+
+
+}
+
+.logo2{display: initial; }
+.mobile-view{
+width: 100px;
+
+}
+.flex-container1{
+display: flex;
+flex-direction: column;
+}
+.footer{
+visibility: visible;
+margin-top: 160vh;
+background-color: yellow;
+background-color: skyblue;
+margin-top: 130vh; 
+height: 0px;
+padding: 10px;
+text-align: center;
+height: 20%;
+
+}
+
+
+}
+footer {
+
+padding: 10px;
+text-align: center;
+
+position: relative; margin-top: 40%;
+
+}
+.menu1{
+background-color: green;
+margin-top: 30px;
+height: 0px;   
+padding: 5%;
+}
+.menu2{
+float: left; 
+margin-top: 1.5%;
+}
+.main{
+float: right;
+margin-top: 10%; 
+height: 100vh; 
+width: 80%; 
+position:  relative;
+left: -3%;
+right: 2%;
+float: top; 
+margin-bottom: 5%;
+}
+.banner1{
+width: 46%;
+margin-right: 2%;
+margin-left: 2%; 
+text-align: center;
+}
+
+.banner2{
+width: 46%;
+text-align: center;
+}
+.block{
+height: 180px;
+width:95%;
+margin-right: 2%;
+margin-left: 2%;
+background-color: grey;
+text-align: center;
+}
+
+.block1{
+height: 180px; 
+width: 95%;
+margin-right: 2%;
+margin-left: 2%;
+background-color: grey;
+text-align: center; 
+}
+
+.block2{
+height: 180px;
+width: 95%;
+margin-right: 2%;
+margin-left: 2%;
+background-color: grey;
+text-align: center;
+}
